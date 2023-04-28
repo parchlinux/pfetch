@@ -1673,6 +1673,18 @@ get_ascii() {
 			EOF
         ;;
 
+        (Parch*)
+            read_ascii 5 <<-EOF 
+				${c5}      _   
+				${c5}  ٫′ ٫^`  
+				${c5} /`  \ 
+				${c5}‚     `. 
+				${c5}'٫     <`  
+				${c5} \       )  
+				${c5}  `·._.·′
+			EOF
+        ;;
+
         ([Pp]op!_[Oo][Ss]*)
             read_ascii 6 <<-EOF
 				${c6}______
