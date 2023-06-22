@@ -1673,15 +1673,23 @@ get_ascii() {
 			EOF
         ;;
 
-        (Parch*)
-            read_ascii 5 <<-EOF 
-				${c5}      _   
-				${c5}  ٫′ ٫^`  
-				${c5} /`  \ 
-				${c5}‚     `. 
-				${c5}'٫     <`  
-				${c5} \       )  
-				${c5}  `·._.·′
+        ([Pp]arch*) ${c5}
+            read_ascii 5 <<-EOF
+            ${c5}    
+              ${c5}MOx0NMM  .       
+            ${c5}M0doNM      .      
+          ${c5}MMccc0M        .     
+         ${c5}MXokkcdM         .  
+         ${c5}WlcccccdWM        .
+        ${c5}MOcccccccoNM       .
+        ${c5}MxcccccccclNM     .
+        ${c5}Mkccdoccco0MM         
+        ${c5}MXOXdccccdol0M   
+         ${c5}MNlccccccccxM     
+          ${c5}Mkcccccccc0M     
+           ${c5} MKocccclOM      
+            ${c5} MKkxOWM   
+
 			EOF
         ;;
 
